@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{13EE0CFC-365D-41BA-9351-4DA576CFBB4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface", "Interface", "{6AE1ECA6-0386-4853-B254-5A67D558E153}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDAO", "IDAO\IDAO.csproj", "{E13D0CB6-EBED-4918-B8C6-8ED4C7F7E130}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13EE0CFC-365D-41BA-9351-4DA576CFBB4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13EE0CFC-365D-41BA-9351-4DA576CFBB4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13EE0CFC-365D-41BA-9351-4DA576CFBB4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13EE0CFC-365D-41BA-9351-4DA576CFBB4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E13D0CB6-EBED-4918-B8C6-8ED4C7F7E130}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E13D0CB6-EBED-4918-B8C6-8ED4C7F7E130}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E13D0CB6-EBED-4918-B8C6-8ED4C7F7E130}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E13D0CB6-EBED-4918-B8C6-8ED4C7F7E130}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E13D0CB6-EBED-4918-B8C6-8ED4C7F7E130} = {6AE1ECA6-0386-4853-B254-5A67D558E153}
+	EndGlobalSection
+EndGlobal
